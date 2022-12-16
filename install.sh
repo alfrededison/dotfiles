@@ -9,5 +9,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/p
 echo -e "\u001b[7m Installing dot files...\u001b[0m"
 cat .gitconfig >> $HOME/.gitconfig
 cat .zshrc > $HOME/.zshrc
+cat .tmux.conf > $HOME/.tmux.conf
 
 echo -e "\u001b[7m Done. Please restart terminal!\u001b[0m"
