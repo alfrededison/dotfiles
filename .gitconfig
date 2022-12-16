@@ -1,0 +1,21 @@
+[credential]
+	helper = store
+[alias]
+        sh = stash --include-untracked
+        shp = stash pop
+        
+        fp = fetch --prune
+        
+        rsf = "!f() { git reset --hard $1; git clean -fd; }; f"
+        ckc = checkout .
+        unst = reset HEAD
+        undo = reset HEAD~1
+        back = reset --hard HEAD@{1}
+        sq = "!f() { echo squash to $1; git reset $1; git add -A; git commit; }; f"
+        
+        lg = log --graph --pretty=format:'%Cred%h %C(yellow)%d %Cgreen(%cr) %C(bold blue)<%an> %n%Creset%s'
+        ll = log --pretty=format:'%C(yellow)%m %Cred%h %C(bold blue)<%an> %Cgreen(%cr) %Creset%s'
+        cmp = log --reverse --pretty=format:'%h'
+        rl = reflog --pretty=format:'%Cred%h %Cgreen(%cr) %C(bold blue)<%an> %C(yellow)%d %n%Creset%gs'
+[user]
+	name = Hieu Nguyen Duc
