@@ -8,11 +8,11 @@ If you're using Github codespaces, you can folk this repo and config it followin
 1. Clone the repository:
     ```
     git clone https://github.com/alfrededison/dotfiles $HOME/.dotfiles
-    cd $HOME/.dotfiles
     ```
 2. Install requirements and dot files:
 
     ```
+    cd $HOME/.dotfiles
     ./install.sh
     ```
 ## Setting up fonts
