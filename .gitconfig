@@ -17,5 +17,3 @@
         ll = log --pretty=format:'%C(yellow)%m %Cred%h %C(bold blue)<%an> %Cgreen(%cr) %Creset%s'
         cmp = log --reverse --pretty=format:'%h'
         rl = reflog --pretty=format:'%Cred%h %Cgreen(%cr) %C(bold blue)<%an> %C(yellow)%d %n%Creset%gs'
-[user]
-	name = Hieu Nguyen Duc
