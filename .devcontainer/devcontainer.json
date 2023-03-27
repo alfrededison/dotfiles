@@ -1,0 +1,16 @@
+{
+  "name": "Dotfiles",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:bullseye",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true
+      },
+      "extensions": [
+        "foxundermoon.shell-format",
+        "eamodio.gitlens"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}
