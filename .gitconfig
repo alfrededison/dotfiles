@@ -1,5 +1,3 @@
-[credential]
-	helper = store
 [alias]
         sh = stash --include-untracked
         shp = stash pop
