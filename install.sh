@@ -31,4 +31,5 @@ fi
 echo '>>>>>>>>>> Installing tmux configs...'
 cat .tmux.conf >$HOME/.tmux.conf
 
-echo '>>>>>>>>>> Done. Please restart terminal! <<<<<<<<<<'
+echo '>>>>>>>>>> Done. Applying to a new shell session! <<<<<<<<<<'
+exec zsh
